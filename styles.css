@@ -1,0 +1,140 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #256D85;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0;
+  font-family: 'Sacramento', cursive;
+
+}
+h2{
+  color: #256D85;
+  font-weight: normal;
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  color:  #47B5FF;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+   color: #47B5FF;
+   font-family: 'Montserrat', sans-serif;
+   text-decoration: none;
+   margin: 10px 20px;
+}
+p{
+  color: #06283D;
+}
+.top-container{
+  background-color: #DFF6FF;
+  position: relative;
+  padding-top: 200px;
+}
+/* .middle-container{
+
+}
+.bottom-container{
+
+}*/
+
+.profile{
+  margin: 100px auto 150px auto;
+  line-height: 2;
+}
+
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:100px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left:250px;
+  bottom: 300px;
+}
+.profile-pic{
+  width: 200px;
+}
+.skill-row1,.skill-row2{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.skill-row1{
+  margin-bottom: 250px;
+}
+.skills{
+  margin: 80px auto;
+  background-color: #DFF6FF;
+  padding: 30px;
+}
+.row1{
+    width: 25%;
+    background-color: #256D85;
+    border-radius: 50%;
+    float: left;
+    margin-right: 40px;
+}
+.row2{
+  width: 25%;
+  float: left;
+  margin-right: 40px;
+}
+.contact-me{
+  margin: 80px auto 150px auto ;
+  line-height: 4;
+}
+.bond{
+  line-height: 2;
+}
+.bottom-container{
+  margin-top: 50px;
+  padding: 50px 50px 30px;
+  background-color: #256D85;
+}
+.para1, .para2{
+  width: 25%;
+  margin: auto;
+}
+hr{
+  border-style: dotted;
+  border-bottom: none;
+  width:4%;
+  border-width: 7px;
+  border-color: #DFF6FF;
+
+}
+.btn {
+  background: #256D85;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+.footer-link{
+  color: #3cb0fd;;
+}
+.footer-link:hover{
+  color: white;
+  text-decoration: underline;
+}
+.copyright{
+  font-size: 0.75rem;
+  color: white;
+  padding: 20px 0;
+}
